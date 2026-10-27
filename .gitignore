@@ -1,0 +1,30 @@
+﻿# 密钥与数据
+.env
+*.token
+*.key
+
+# 模型权重
+local_models/
+*.safetensors
+*.bin
+*.gguf
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 训练产物
+*.pt
+*.pth
+*.h5
+wandb/
+tensorboard/
+
+# 临时与系统
+*.tmp
+$*
+.DS_Store
